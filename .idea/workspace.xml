@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562956410605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="draft of client basic information is finished.">
+      <created>1562960286137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562960286137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="setup basic structure of General Information" />
     <MESSAGE value="Add stylesheet and google font" />
     <MESSAGE value="working on client-photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on client-photo" />
+    <MESSAGE value="draft of client basic information is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="draft of client basic information is finished." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">

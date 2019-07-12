@@ -4,7 +4,13 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
   width: 1920px;
+  font-size: 1.5rem;
 
+}
+
+p{
+  margin-block-start: 0px;
+margin-block-end: 0px;
 }
 
 /* Common use */
@@ -266,14 +272,50 @@ height: 250px;
 
 }
 
-.client-information-menu{
-  margin-top:60px
-
-}
 
 /* client-information menu */
 .client-information-menu{
   margin-top: 41px;
   height:60px;
   width: 100%;
+}
+
+.client-information-menu-box{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+
+/* general information */
+.general-infomation{
+  height: 380px;
+  position: static;
+  clear:both;
+  margin-top: 40px;
+  margin-left: 40px;
+
+}
+
+.general-infomation-form{
+  height: 380px;
+  /* clear:right; */
+}
+
+
+.general-infomation-01{
+  width: 665px;
+}
+
+
+.general-infomation-02{
+  width: 665px;
+}
+
+.general-infomation-input-box{
+  width: 665px;
+  height: 95px;
+  margin: auto auto 0px auto;
+  line-height: 95px
 }
