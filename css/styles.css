@@ -3,6 +3,7 @@ body {
   color: #6b6f82;
   background-repeat: no-repeat;
   margin: 0px;
+  width: 1920px;
 
 }
 
@@ -139,13 +140,14 @@ body {
   margin: 0px 0px 0px 350px;
   margin-top: 0px;
   padding: 0px
+
 }
 
 .main-frame-bg {
   background-color: #196b2f;
   background-image: linear-gradient(to right, #196b2f, #259c44);
   color: #ffffff;
-  width: 100%;
+  width: 1570px;
   height: 200px;
   position: absolute;
   z-index: -10;
@@ -210,21 +212,68 @@ width: 95%;
 /* Client details */
 .client-details{
   margin-top: 54px;
-  margin-left: auto;
+  margin-left: 40px;
   margin-right: auto;
   margin-bottom: 50px;
 
-  width: 95%;
+  width: 1495px;
   height: 915px;
   box-shadow: 0px 0px 8px #888888;
   background-color: white;
+  overflow: hidden;
 }
 
 
 /* client photo */
 .client-photo{
-  margin: 40px;
+
+
+margin-left: 40px;
   width: 250px;
   height: 250px;
-  background-color: #6b6f82;
+  background-color: #ededed;
+}
+
+/* client basic information */
+
+.client-basic-information{
+  height: 250px;
+  margin-top: 40px;
+}
+
+.client-basic-information-content{
+  width: 1205px;
+  height: 250px;
+}
+
+
+
+
+.client-basic-information-01{
+
+margin-left: 60px;
+width: 500px;
+height: 250px;
+
+}
+
+
+.client-basic-information-02{
+
+margin-left: 50px;
+width: 500px;
+height: 250px;
+
+}
+
+.client-information-menu{
+  margin-top:60px
+
+}
+
+/* client-information menu */
+.client-information-menu{
+  margin-top: 41px;
+  height:60px;
+  width: 100%;
 }
