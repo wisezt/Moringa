@@ -1,3 +1,230 @@
-body{
+body {
   font-family: 'Dosis', sans-serif;
+  color: #6b6f82;
+  background-repeat: no-repeat;
+  margin: 0px;
+
+}
+
+/* Common use */
+.inner{
+  position: relative;
+  float:left;
+}
+
+
+
+
+
+
+/* Side Bar */
+.logo {
+  color: #259c44;
+  width: 100px;
+  margin: auto;
+}
+
+.side-bar {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  box-shadow: 0px 0px 8px #888888;
+}
+
+.side-bar a {
+  padding: 8px 8px 8px 32px;
+  font-size: 1rem;
+  color: #6b6f82;
+  display: block;
+}
+
+.side-bar a:hover {
+  /* For browsers that do not support gradients */
+  background-color: #196b2f;
+  background-image: linear-gradient(to right, #196b2f, #259c44);
+  color: #ffffff;
+  height: auto;
+}
+
+.menu-option {
+  width: 90%;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.main-menu .option {
+  position: relative;
+  float: left;
+}
+
+.dashboard {
+  height: 50px;
+}
+
+.icon-dashboard {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/dashboard-solid.svg);
+  background-size: 20px 20px;
+}
+
+.side-bar a:hover .icon-dashboard {
+  background: url(../img/dashboard-solid-white.svg);
+  background-repeat: no-repeat;
+}
+
+.icon-clients {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/clients-solid.svg);
+  background-size: 20px 20px;
+}
+
+.side-bar a:hover .icon-clients {
+  background: url(../img/clients-solid-white.svg);
+  background-repeat: no-repeat;
+}
+
+.icon-users {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/user-cog-solid.svg);
+  background-size: 20px 20px;
+}
+
+.side-bar a:hover .icon-users {
+  background: url(../img/user-cog-solid-white.svg);
+  background-repeat: no-repeat;
+}
+
+/* bottom menu */
+.icon-collapse {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/caret-left-solid.svg);
+  background-size: 20px 20px;
+}
+
+.side-bar a:hover .icon-collapse {
+  background: url(../img/caret-left-solid-white.svg);
+  background-repeat: no-repeat;
+}
+
+.icon-logout {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/door-open-solid.svg);
+  background-size: 20px 20px;
+}
+
+.side-bar a:hover .icon-logout {
+  background: url(../img/door-open-solid-white.svg);
+  background-repeat: no-repeat;
+}
+
+/* Main Frame */
+.main-frame {
+  margin: 0px 0px 0px 350px;
+  margin-top: 0px;
+  padding: 0px
+}
+
+.main-frame-bg {
+  background-color: #196b2f;
+  background-image: linear-gradient(to right, #196b2f, #259c44);
+  color: #ffffff;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  z-index: -10;
+
+}
+
+/* search bar */
+
+.search-bar-frame{
+
+  height: 70px;
+width: 95%;
+  position: relative;
+  float: none;
+  color: white;
+  margin-left: 40px;
+  margin-right: auto;
+
+
+
+
+}
+
+
+
+.search-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 70px;
+  width: 51.45%;
+
+}
+
+.search-bar .content{
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.search-bar p {
+  color: #ffffff;
+  margin: auto;
+  line-height:70px;
+}
+
+.search-bar-container-01{
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+
+.new-intake{
+  line-height: 70px;
+}
+
+
+
+/* Client details */
+.client-details{
+  margin-top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  width: 95%;
+  height: 915px;
+  box-shadow: 0px 0px 8px #888888;
+  background-color: white;
+}
+
+
+/* client photo */
+.client-photo{
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+  background-color: #6b6f82;
 }
