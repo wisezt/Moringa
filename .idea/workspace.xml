@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/moringa-clients.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="777">
-              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -127,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562960286137</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed the draft of the page">
+      <created>1562966168441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562966168441</updated>
+    </task>
+    <task id="LOCAL-00007" summary="working side bar menu hover">
+      <created>1562968962497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562968962497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -168,13 +182,15 @@
     <MESSAGE value="Add stylesheet and google font" />
     <MESSAGE value="working on client-photo" />
     <MESSAGE value="draft of client basic information is finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="draft of client basic information is finished." />
+    <MESSAGE value="completed the draft of the page" />
+    <MESSAGE value="working side bar menu hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="working side bar menu hover" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
