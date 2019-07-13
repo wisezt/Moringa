@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moringa-clients.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="435">
+              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562968962497</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Complete css for side bar menu">
+      <created>1562985820895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562985820895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -184,13 +191,14 @@
     <MESSAGE value="draft of client basic information is finished." />
     <MESSAGE value="completed the draft of the page" />
     <MESSAGE value="working side bar menu hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="working side bar menu hover" />
+    <MESSAGE value="Complete css for side bar menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete css for side bar menu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="435">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
         </state>
       </provider>
     </entry>

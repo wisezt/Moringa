@@ -2,29 +2,30 @@ body {
   font-family: 'Dosis', sans-serif;
   color: #6b6f82;
   background-repeat: no-repeat;
-  margin:0;
+  margin: 0px;
   width: 1920px;
+  height: 1080px;
   font-size: 1.5rem;
-
 }
 
-p{
+p {
   margin-block-start: 0px;
-margin-block-end: 0px;
+  margin-block-end: 0px;
+  display: block;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 /* Common use */
-.float-lelt{
+.float-left {
   position: relative;
-  float:left;
+  float: left;
 }
 
-
-
-
-
 /* need to be applied to parent elements for the element which need to be vertical-center */
-.relative{
+.relative {
   position: relative;
 }
 
@@ -35,9 +36,6 @@ margin-block-end: 0px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-
-
 
 /* Side Bar */
 .logo {
@@ -55,12 +53,12 @@ margin-block-end: 0px;
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 60px;
+  /* padding-top: 60px; */
   box-shadow: 0px 0px 8px #888888;
 }
 
 .side-bar a {
-  padding:0px;
+  padding: 0px;
   font-size: 1.5rem;
   color: #6b6f82;
   display: block;
@@ -72,32 +70,24 @@ margin-block-end: 0px;
   background-image: linear-gradient(to right, #196b2f, #259c44);
   color: #ffffff;
   height: auto;
-
 }
 
-
-
-
-
-.side-bar-menu-contianer{
+.side-bar-menu-contianer {
   width: 317px;
   height: 80px;
   margin: 0 auto 0px 0px;
 }
 
-.side-bar-menu-contianer .wrap{
+.side-bar-menu-contianer .wrap {
   height: 80px;
   margin-left: 20px;
 }
-
-
 
 .dashboard {
   height: 50px;
 }
 
 .icon-dashboard {
-
   display: block;
   width: 35px;
   height: 35px;
@@ -110,17 +100,9 @@ margin-block-end: 0px;
   background-repeat: no-repeat;
 }
 
-
-.side-bar-text-content{
+.side-bar-text-content {
   margin-left: 55px;
 }
-
-
-
-
-
-
-
 
 .icon-clients {
   display: block;
@@ -149,14 +131,11 @@ margin-block-end: 0px;
 }
 
 /* bottom menu */
-
-.bottom-menu{
+.bottom-menu {
   position: absolute;
   bottom: 50px;
-  margin:0px auto 50px 0px;
+  /* margin:0px auto 50px 0px; */
 }
-
-
 
 .icon-collapse {
   display: block;
@@ -189,9 +168,8 @@ margin-block-end: 0px;
   margin: 0px 0px 0px 346px;
   margin-top: 0px;
   padding: 0px;
-
-  position:relative;
-
+  position: relative;
+  overflow: hidden;
 }
 
 .main-frame-bg {
@@ -202,40 +180,30 @@ margin-block-end: 0px;
   height: 200px;
   position: absolute;
   z-index: -10;
-
 }
 
 /* search bar */
-
-.search-bar-frame{
-
+.search-bar-frame {
   height: 70px;
-width: 95%;
+  width: 95%;
   position: relative;
   float: none;
   color: white;
   margin-left: 40px;
+  margin-top: 16px;
   margin-right: auto;
-
-
-
-
 }
-
-
 
 .search-bar {
   position: relative;
-  margin-left: auto;
+  margin-left: 0px;
   margin-right: auto;
-  margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.4);
   height: 70px;
-  width: 51.45%;
-
+  width: 1000px;
 }
 
-.search-bar .content{
+.search-bar .content {
   width: 80%;
   margin-top: auto;
   margin-bottom: auto;
@@ -244,29 +212,56 @@ width: 95%;
 .search-bar p {
   color: #ffffff;
   margin: auto;
-  line-height:70px;
-}
-
-.search-bar-container-01{
-  margin-top: auto;
-  margin-bottom: auto;
-
-}
-
-
-.new-intake{
   line-height: 70px;
 }
 
+.search-bar-container-01 {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 70px;
+}
 
+.icon-search {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/search-solid-white.svg);
+  background-size: 35px 35px;
+}
+
+.margin-left-40 {
+  margin-left: 40px;
+}
+
+.margin-left-115 {
+  margin-left: 115px;
+}
+
+.new-intake {
+  line-height: 70px;
+  height: 70px
+}
+
+.icon-plus {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/plus-solid-white.svg);
+  background-size: 35px 35px;
+}
+
+.icon-plus-wrap {
+  height: 70px;
+  width: 35px;
+  margin-left: 40px;
+}
 
 /* Client details */
-.client-details{
+.client-details {
   margin-top: 54px;
   margin-left: 40px;
   margin-right: auto;
   margin-bottom: 50px;
-
   width: 1495px;
   height: 915px;
   box-shadow: 0px 0px 8px #888888;
@@ -274,99 +269,92 @@ width: 95%;
   overflow: hidden;
 }
 
-
 /* client photo */
-.client-photo{
-
-
-margin-left: 40px;
+.client-photo {
+  margin-left: 40px;
   width: 250px;
   height: 250px;
   background-color: #ededed;
 }
 
 /* client basic information */
-
-.client-basic-information{
+.client-basic-information {
   height: 250px;
   margin-top: 40px;
 }
 
-.client-basic-information-content{
+.client-basic-information-content {
   width: 1205px;
   height: 250px;
 }
 
-
-
-
-.client-basic-information-01{
-
-margin-left: 60px;
-width: 500px;
-height: 250px;
-
+.client-basic-information-01 {
+  margin-left: 60px;
+  width: 500px;
+  height: 250px;
 }
 
-
-.client-basic-information-02{
-
-margin-left: 50px;
-width: 500px;
-height: 250px;
-
+.client-basic-information-02 {
+  margin-left: 50px;
+  width: 500px;
+  height: 250px;
 }
 
-.client-basic-information-tr{
+.client-basic-information-tr {
   height: 41.67px;
 }
 
-
-
-
 /* client-information menu */
-.client-information-menu{
-  margin-top: 41px;
-  height:60px;
+.client-information-menu {
+  margin-top: 60px;
+  height: 38px;
   width: 100%;
+  border-bottom: 2px solid #ededed;
 }
 
-.client-information-menu-box{
+.client-information-menu-container {
+  height: 35px;
+}
+
+.client-information-menu-container:hover {
+  border-bottom: 5px solid #196b2f
+}
+
+.client-information-menu-box {
   margin-left: 40px;
   margin-right: 40px;
+  /* bottom:0px; */
+  /* vertical-align: bottom; */
 }
-
-
-
 
 /* general information */
-.general-infomation{
+.general-infomation {
   height: 380px;
   position: static;
-  clear:both;
+  clear: both;
   margin-top: 40px;
   margin-left: 40px;
-
 }
 
-.general-infomation-form{
+.general-infomation-form {
   height: 380px;
   /* clear:right; */
 }
 
-
-.general-infomation-01{
+.general-infomation-01 {
   width: 665px;
 }
 
-
-.general-infomation-02{
+.general-infomation-02 {
   width: 665px;
 }
 
-.general-infomation-input-box{
+.general-infomation-input-box {
   width: 665px;
   height: 95px;
   margin: auto auto 0px auto;
   line-height: 95px
 }
+
+/* Addtional */
+.bottom-line {}
