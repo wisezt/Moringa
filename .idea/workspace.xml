@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562985820895</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add hover for client information menu">
+      <created>1563034660677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563034660678</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -192,7 +199,8 @@
     <MESSAGE value="completed the draft of the page" />
     <MESSAGE value="working side bar menu hover" />
     <MESSAGE value="Complete css for side bar menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete css for side bar menu" />
+    <MESSAGE value="Add hover for client information menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add hover for client information menu" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">

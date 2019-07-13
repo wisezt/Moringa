@@ -342,19 +342,46 @@ p {
 }
 
 .general-infomation-01 {
-  width: 665px;
+  width: 667px;
+
 }
 
-.general-infomation-02 {
-  width: 665px;
+.general-information-02{
+  width: 667px;
+  margin-left: 80px;
 }
 
 .general-infomation-input-box {
-  width: 665px;
+  width: 667px;
   height: 95px;
   margin: auto auto 0px auto;
-  line-height: 95px
+  line-height: 95px;
+  border-bottom: 5px solid #ededed;
 }
+
+.general-infomation-input-box:hover{
+    border-bottom: 5px solid #196b2f;
+}
+
+.general-infomation-input-box input[type=text] {
+  padding: 0px;
+  font-size: 1.5rem;
+  color:  #6b6f82;
+  display: block;
+  border:none;
+  width:100%;
+  font-family: 'Dosis', sans-serif;
+}
+
+.inline-height-32px{
+  line-height:32.22px;
+}
+
 
 /* Addtional */
 .bottom-line {}
+.absolute-bottom-5px{
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+}
