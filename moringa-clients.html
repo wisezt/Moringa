@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Clients</title>
-  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+
 </head>
 
 <body>
@@ -325,7 +325,7 @@
             <!-- Who all lives at home -->
             <div class="general-infomation-input-box relative">
               <div class=" absolute-bottom-5px">
-                  <input type="text" name="who-all-home" value="Who All Lives at Home?">
+                <input type="text" name="who-all-home" value="Who All Lives at Home?">
               </div>
 
             </div>
@@ -343,7 +343,7 @@
             <!-- Are your children in Care -->
             <div class="general-infomation-input-box relative">
               <div class="absolute-bottom-5px">
-                  <input type="text" name="children-in-care" value="Are Your Children in Care?">
+                <input type="text" name="children-in-care" value="Are Your Children in Care?">
               </div>
 
             </div>
@@ -366,12 +366,32 @@
 
             <div class="general-infomation-input-box relative">
               <div class="absolute-bottom-5px inline-height-32px">
-                <p>Lving Together
-                  <input type="radio" name="living-together" value="Yes">
-                  Yes
+                <div class="float-left">
+                  <p> Lving Together </p>
+                </div>
+                <div class="float-left margin-left-10px">
+                  <label class="container">
+                    <input type="radio" name="living-together" value="Yes">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
 
-                  <input type="radio" name="living-together" value="No">
-                  No </p>
+                <div class="float-left margin-left-10px">
+                  <p> Yes </p>
+
+
+                </div>
+                <div class="float-left margin-left-10px">
+                  <label class="container">
+                    <input type="radio" name="living-together" value="Yes">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div class="float-left margin-left-10px">
+                  <p> No </p>
+                </div>
+
+
               </div>
 
             </div>
@@ -390,8 +410,11 @@
 
 
             <!-- bottom -->
-            <div class="general-infomation-input-box">
-              <input type="submit" value="Save & Continue">
+            <div class="general-infomation-input-box relative no-border">
+              <div class="absolute-bottom-0px-height-60px">
+                <input class="button" type="submit" value="Save & Continue">
+              </div>
+
             </div>
 
 
@@ -420,6 +443,76 @@
     </div>
 
 
+    <div id="calendar" class="calendar-div">
+      <div class="year-month row">
+        <div class="small-box">
+
+        </div>
+        <div id="minus" onclick="minus()" class="small-box minus ">
+          <p>
+            <</p> </div> <div onclick="chooseMonth()" class="container-77 float-left">
+              <h4 id="month"></h4>
+
+        </div>
+
+
+        <div onclick="chooseYear()" class="container-77 float-left">
+          <h4 id="year"></h4>
+        </div>
+
+
+        <div id="plus" onclick="plus()" class="small-box plus float-left">
+          <p>></p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="small-box">
+          <p>S</p>
+        </div>
+        <div class="small-box">
+          <p>M</p>
+        </div>
+        <div class="small-box">
+          <p>T</p>
+        </div>
+        <div class="small-box">
+          <p>W</p>
+        </div>
+        <div class="small-box">
+          <p>T</p>
+        </div>
+        <div class="small-box">
+          <p>F</p>
+        </div>
+        <div class="small-box">
+          <p>S</p>
+        </div>
+      </div>
+      <div id="id-dates" class="dates">
+      </div>
+
+
+      <div class="calendar-btn row">
+        <div class="container-90 float-right">
+          <input class="calendar-button" type="button" name="" value="Ok">
+
+        </div>
+
+        <div class="container-90 float-right">
+          <input class="calendar-button" type="button" name="" value="Cancel">
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="js/calendar.js">
+
+    </script>
 
 
 

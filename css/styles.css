@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
 body {
   font-family: 'Dosis', sans-serif;
   color: #6b6f82;
@@ -53,8 +55,7 @@ p {
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  /* padding-top: 60px; */
-  box-shadow: 0px 0px 8px #888888;
+  box-shadow: 0px 0px 10px #888888;
 }
 
 .side-bar a {
@@ -264,7 +265,7 @@ p {
   margin-bottom: 50px;
   width: 1495px;
   height: 915px;
-  box-shadow: 0px 0px 8px #888888;
+  box-shadow: 0px 0px 10px #888888;
   background-color: white;
   overflow: hidden;
 }
@@ -317,7 +318,7 @@ p {
 }
 
 .client-information-menu-container:hover {
-  border-bottom: 5px solid #196b2f
+  border-bottom: 5px solid  #259c44
 }
 
 .client-information-menu-box {
@@ -360,7 +361,7 @@ p {
 }
 
 .general-infomation-input-box:hover{
-    border-bottom: 5px solid #196b2f;
+    border-bottom: 5px solid #259c44;
 }
 
 .general-infomation-input-box input[type=text] {
@@ -378,10 +379,219 @@ p {
 }
 
 
+.button {
+  background-color: #ededed;
+  border: none;
+  color:  #6b6f82;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: 'Dosis', sans-serif;
+  width: 315px;
+  height:60px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.button:hover{
+  background-color: #259c44;
+  color: #ffffff;
+}
+
+.no-border{
+  border-bottom: none;
+}
+
+.no-border:hover{
+  border-bottom: none;
+}
+
+
+/* The radio button */
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color:  #259c44;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 12px;
+  top: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
 /* Addtional */
 .bottom-line {}
 .absolute-bottom-5px{
   width: 100%;
   position: absolute;
   bottom: 5px;
+}
+
+.absolute-bottom-0px-height-60px{
+
+
+}
+
+.margin-left-10px{
+  margin-left: 20px
+}
+
+
+
+
+
+.calendar-div {
+  width: 360px;
+  height: 360px;
+  background-color: #ededed;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 0px 10px #888888;
+
+}
+
+.calendar-div h4 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  display: block;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+    color: #6b6f82;
+}
+
+.calendar-div p {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  display: block;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+    color: #6b6f82;
+}
+
+.calendar-div .row {
+  width: 100%;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  background-color: #ededed;
+}
+
+.calendar-div .small-box {
+  height: 45px;
+  position: relative;
+  float: left;
+  width: 51.43px;
+  text-align: center;
+  background-color: #ededed;
+}
+
+.calendar-div .container-77 {
+  width: 77.14px;
+  height: 45px;
+}
+
+.calendar-div .float-left {
+  position: relative;
+  float: left;
+}
+
+.calendar-div .float-right {
+  position: relative;
+  float: right;
+}
+
+.calendar-div .dates {
+  width: 360px;
+  height: 225px;
+}
+
+.calendar-div .container-90 {
+  height: 45px;
+  width: 90px;
+}
+
+.calendar-div .calendar-button {
+  background-color: #ededed;
+  border: none;
+  color: #6b6f82;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Dosis', sans-serif;
+  bottom: 0px;
+  float: left;
 }
