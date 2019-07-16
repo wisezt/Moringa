@@ -23,11 +23,11 @@
       <!-- Main Menu -->
       <div class="side-bar-menu margin-top-90px">
         <!-- Dashboard -->
-        <div class="side-bar-menu-contianer">
+        <div class="side-bar-menu-contianer" onclick="showContent('Dashboard')">
           <a href="#">
             <div class=" wrap relative">
               <div class="icon-dashboard vertical-center"></div>
-              <div class="vertical-center side-bar-text-content ">
+              <div class="vertical-center side-bar-text-content " >
                 <p>Dashboard</p>
 
               </div>
@@ -38,7 +38,7 @@
 
 
         <!-- Clients -->
-        <div class="side-bar-menu-contianer">
+        <div class="side-bar-menu-contianer"  onclick="showContent('Clients')">
           <a href="#">
             <div class="wrap relative">
               <div class="icon-clients vertical-center">
@@ -52,7 +52,7 @@
 
 
         <!-- Users -->
-        <div class="side-bar-menu-contianer">
+        <div class="side-bar-menu-contianer"  onclick="showContent('Users')">
           <a href="#">
             <div class="wrap relative">
               <div class="icon-users vertical-center">
@@ -76,7 +76,7 @@
       <!-- Collapse and Logout -->
       <div class="bottom-menu">
         <!-- Collapse -->
-        <div class="side-bar-menu-contianer" onclick="">
+        <div class="side-bar-menu-contianer" onclick="showContent('Collapse')">
 
           <div class="wrap relative">
             <div class="icon-collapse vertical-center">
@@ -94,7 +94,7 @@
 
 
         <!-- Logout -->
-        <div class="side-bar-menu-contianer">
+        <div class="side-bar-menu-contianer" onclick="showContent('Logout')">
           <a href="#">
             <div class="wrap relative">
               <div class="icon-logout vertical-center">
@@ -183,6 +183,10 @@
 
 
     <!-- Client details -->
+  <div id="content" class="main-block-content">
+
+  </div>
+
     <div id="client-details" class="client-details">
       <!-- client basic information -->
       <div class="client-basic-information">

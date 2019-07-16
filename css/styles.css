@@ -328,6 +328,36 @@ input:focus{
   margin-left: 40px;
 }
 
+
+.main-block-content{
+  margin-top: 54px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1495px;
+  height: 915px;
+  box-shadow: 0px 0px 10px #888888;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+  display: none;
+}
+
+.content-center{
+    margin: auto;
+  margin-top: 400px;
+
+width: 200px;
+color: #6b6f82;
+
+}
+.content-center p{
+
+color: #6b6f82;
+
+}
+
+
 /* Client details */
 .client-details {
   margin-top: 54px;
@@ -341,6 +371,9 @@ input:focus{
   overflow: hidden;
   border-radius: 5px 5px 5px 5px;
 }
+
+
+
 
 /* client photo */
 .client-photo {
