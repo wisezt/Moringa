@@ -233,6 +233,10 @@ p {
    outline: none;
 }
 
+input:focus{
+  outline: none;
+}
+
 .outline-none{
      outline: none;
 }
