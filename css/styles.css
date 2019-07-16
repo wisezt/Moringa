@@ -92,7 +92,6 @@ p {
 
 
 .side-bar .side-bar-menu-contianer:hover {
-  /* For browsers that do not support gradients */
   background-color: #196b2f;
   background-image: linear-gradient(to right, #196b2f, #259c44);
   color: #ffffff;
@@ -101,11 +100,25 @@ p {
   cursor: pointer;
 }
 
+.side-bar-menu-contianer-selected {
+  width: 317px;
+  height: 80px;
+  margin: 0 auto 0px 0px;
+  background-color: #196b2f;
+  background-image: linear-gradient(to right, #196b2f, #259c44);
+  color: #ffffff;
+  height: auto;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+
+
 .margin-top-90px {
   margin-top: 90px;
 }
 
-.side-bar-menu-contianer .wrap {
+ .wrap {
   height: 80px;
   margin-left: 20px;
 }
@@ -122,14 +135,36 @@ p {
   background-size: 35px 35px;
 }
 
-.side-bar a:hover .icon-dashboard {
+.side-bar-menu-contianer:hover .icon-dashboard {
   background: url(../img/dashboard-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
+
+.icon-dashboard-selected {
+  display: block;
+  width: 35px;
+  height: 35px;
+
+  background-size: 35px 35px;
+
+  background: url(../img/dashboard-solid-white.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+
+
+
+
 .side-bar-text-content {
   margin-left: 55px;
+
 }
 
 .icon-clients {
@@ -140,11 +175,28 @@ p {
   background-size: 35px 35px;
 }
 
-.side-bar a:hover .icon-clients {
+.side-bar-menu-contianer:hover .icon-clients {
   background: url(../img/clients-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
+
+.icon-clients-selected {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/clients-solid.svg);
+  background-size: 35px 35px;
+
+  background: url(../img/clients-solid-white.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+
 
 .icon-users {
   display: block;
@@ -154,11 +206,28 @@ p {
   background-size: 35px 35px;
 }
 
-.side-bar a:hover .icon-users {
+.side-bar-menu-contianer:hover .icon-users {
   background: url(../img/user-cog-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
+
+
+.icon-users-selected {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/user-cog-solid.svg);
+  background-size: 35px 35px;
+
+  background: url(../img/user-cog-solid-white.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
 
 /* bottom menu */
 .bottom-menu {
@@ -182,6 +251,22 @@ p {
 }
 
 
+.icon-collapse-selected {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/caret-left-solid.svg);
+  background-size: 35px 35px;
+  background-position: center;
+
+  background: url(../img/caret-left-solid-white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
 
 .icon-logout {
   display: block;
@@ -191,11 +276,32 @@ p {
   background-size: 35px 35px;
 }
 
-.side-bar a:hover .icon-logout {
+.side-bar-menu-contianer:hover .icon-logout {
   background: url(../img/door-open-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
+
+
+.icon-logout-selected {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url(../img/door-open-solid.svg);
+  background-size: 35px 35px;
+
+  background: url(../img/door-open-solid-white.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 
 /* Main Frame */
 .main-frame {
