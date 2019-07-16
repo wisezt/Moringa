@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563288702415</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add cursor point">
+      <created>1563294521694</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563294521695</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -272,7 +279,8 @@
     <MESSAGE value="setup Search Bar" />
     <MESSAGE value="remove input outline" />
     <MESSAGE value="adjust birthday bar size" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust birthday bar size" />
+    <MESSAGE value="Add cursor point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cursor point" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">

@@ -187,12 +187,10 @@
 
     // Show Calendar
 
-    let iconCalendarDiv = document.getElementById("icon-calendar-id");
-    let  calendarTop = iconCalendarDiv.getBoundingClientRect().top;
-    let  calendarLeft = iconCalendarDiv.getBoundingClientRect().left-400-346;
+
     document.getElementById("calendar").style.position="absolute";
-    document.getElementById("calendar").style.top=calendarTop+"px";
-    document.getElementById("calendar").style.left=calendarLeft+"px";
+    document.getElementById("calendar").style.top=590+"px";
+    document.getElementById("calendar").style.left=320+"px";
 
     function showCalendar() {
 

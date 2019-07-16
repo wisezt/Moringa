@@ -350,6 +350,10 @@ input:focus{
   background-color: #ededed;
 }
 
+.client-photo:hover{
+  cursor: pointer;
+}
+
 .client-photo .center {
   position: absolute;
   left: 50%;
@@ -420,6 +424,11 @@ input:focus{
   border-bottom: 5px solid #259c44;
   cursor: pointer;
 }
+
+.green-bottom{
+    border-bottom: 5px solid #259c44;
+}
+
 
 .client-information-menu-box {
   margin-left: 40px;
@@ -494,7 +503,7 @@ input:focus{
 
 .container-Date-of-Birth:hover {
   color: #000000;
-  
+
 }
 
 .GI-p-tag {
@@ -666,6 +675,12 @@ input:focus{
   color: #6b6f82;
 }
 
+.calendar-div h4:hover {
+  cursor:pointer;
+  text-shadow: 0px 0px 3px #259c44;
+}
+
+
 .calendar-div p {
   font-family: 'Dosis', sans-serif;
   text-align: center;
@@ -679,6 +694,12 @@ input:focus{
   color: #6b6f82;
   font-size: 1rem;
 }
+
+.calendar-div p:hover {
+cursor: pointer;
+text-shadow: 0px 0px 3px #259c44;
+}
+
 
 .calendar-div .row {
   width: 100%;
@@ -734,4 +755,23 @@ input:focus{
   font-family: 'Dosis', sans-serif;
   bottom: 0px;
   float: left;
+}
+
+.calendar-button:hover{
+  cursor: pointer;
+  text-shadow: 0px 0px 3px #259c44;
+}
+
+
+
+.icon-search:hover{
+  cursor:pointer;
+}
+
+.icon-plus-wrap:hover{
+    cursor:pointer;
+}
+
+.new-intake{
+  cursor:pointer;
 }
