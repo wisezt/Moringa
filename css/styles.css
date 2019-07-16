@@ -8,6 +8,8 @@ body {
   width: 1920px;
   height: 1080px;
   font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .size {
@@ -79,12 +81,24 @@ p {
   color: #ffffff;
   height: auto;
   border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 
 .side-bar-menu-contianer {
   width: 317px;
   height: 80px;
   margin: 0 auto 0px 0px;
+}
+
+
+.side-bar .side-bar-menu-contianer:hover {
+  /* For browsers that do not support gradients */
+  background-color: #196b2f;
+  background-image: linear-gradient(to right, #196b2f, #259c44);
+  color: #ffffff;
+  height: auto;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 
 .margin-top-90px {
@@ -111,6 +125,7 @@ p {
 .side-bar a:hover .icon-dashboard {
   background: url(../img/dashboard-solid-white.svg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .side-bar-text-content {
@@ -128,6 +143,7 @@ p {
 .side-bar a:hover .icon-clients {
   background: url(../img/clients-solid-white.svg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .icon-users {
@@ -141,6 +157,7 @@ p {
 .side-bar a:hover .icon-users {
   background: url(../img/user-cog-solid-white.svg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 /* bottom menu */
@@ -155,12 +172,16 @@ p {
   height: 35px;
   background: url(../img/caret-left-solid.svg);
   background-size: 35px 35px;
+  background-position: center;
 }
 
-.side-bar a:hover .icon-collapse {
+.side-bar-menu-contianer:hover .icon-collapse {
   background: url(../img/caret-left-solid-white.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
+
+
 
 .icon-logout {
   display: block;
@@ -173,14 +194,15 @@ p {
 .side-bar a:hover .icon-logout {
   background: url(../img/door-open-solid-white.svg);
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 /* Main Frame */
 .main-frame {
   margin-top: 0px;
   padding: 0px;
-  position: absolute;
-  left: 346px;
+  position: relative;
+  float:left;
   top: 0px;
   bottom: 0px;
   overflow: hidden;
@@ -201,7 +223,7 @@ p {
 /* search bar */
 .search-bar-frame {
   height: 70px;
-  width: 95%;
+  width: 1495px;
   position: relative;
   float: none;
   color: white;
@@ -395,7 +417,8 @@ input:focus{
 }
 
 .client-information-menu-container:hover {
-  border-bottom: 5px solid #259c44
+  border-bottom: 5px solid #259c44;
+  cursor: pointer;
 }
 
 .client-information-menu-box {
@@ -408,6 +431,7 @@ input:focus{
 
 .client-information-menu-box p {
   color: #6b6f82;
+
 }
 
 /* general information */
@@ -443,6 +467,7 @@ input:focus{
 
 .general-infomation-input-box:hover {
   border-bottom: 5px solid #259c44;
+
 }
 
 .general-infomation-input-box input[type=text] {
@@ -469,6 +494,7 @@ input:focus{
 
 .container-Date-of-Birth:hover {
   color: #000000;
+  
 }
 
 .GI-p-tag {
@@ -496,6 +522,7 @@ input:focus{
 
 .icon-calendar:hover {
   background-image: url('../img/calendar-alt-regular-green.svg');
+  cursor: pointer;
 }
 
 .inline-height-32px {
@@ -521,6 +548,7 @@ input:focus{
 .button:hover {
   background-color: #259c44;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .no-border {
@@ -529,6 +557,7 @@ input:focus{
 
 .no-border:hover {
   border-bottom: none;
+  cursor: pointer;
 }
 
 /* The radio button */
@@ -567,6 +596,7 @@ input:focus{
 
 .container:hover input~.checkmark {
   background-color: #ccc;
+  cursor: pointer;
 }
 
 .container input:checked~.checkmark {

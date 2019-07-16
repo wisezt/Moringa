@@ -10,8 +10,8 @@
 
 <body>
   <!-- Side Bar -->
-  <div class="size">
-    <div class="side-bar">
+
+    <div id="side-bar" class="side-bar">
       <!-- Logo -->
       <div class="logo">
         <!-- <img src="" alt="MORINGA"> -->
@@ -76,19 +76,19 @@
       <!-- Collapse and Logout -->
       <div class="bottom-menu">
         <!-- Collapse -->
-        <div class="side-bar-menu-contianer">
-          <a href="#">
-            <div class="wrap relative">
-              <div class="icon-collapse vertical-center">
-              </div>
-              <div class="vertical-center side-bar-text-content">
-                <p> Collapse</p>
-              </div>
+        <div class="side-bar-menu-contianer" onclick="">
 
+          <div class="wrap relative">
+            <div class="icon-collapse vertical-center">
+            </div>
+            <div class="vertical-center side-bar-text-content">
+              <p> Collapse</p>
             </div>
 
+          </div>
 
-          </a>
+
+
 
         </div>
 
@@ -114,12 +114,12 @@
       </div>
 
     </div>
-  </div>
+
 
 
 
   <!-- Main Frame  -->
-  <div class="main-frame">
+  <div id="main-frame" class="main-frame">
 
     <div class="main-frame-bg">
 
@@ -131,7 +131,9 @@
 
     <!-- Search Bar -->
 
-    <div class="search-bar-frame">
+
+
+    <div id="search-bar-frame" class="search-bar-frame">
       <div class="search-bar float-left">
         <div class="search-bar-container-01 relative float-left">
 
@@ -143,7 +145,7 @@
           <!-- search content -->
           <div class="content vertical-center margin-left-115 ">
             <form class="" action="index.html" method="post">
-                <input class="content" type="text" name="" placeholder="Search Clients">
+              <input class="content" type="text" name="" placeholder="Search Clients">
             </form>
 
 
@@ -181,7 +183,7 @@
 
 
     <!-- Client details -->
-    <div class="client-details">
+    <div id="client-details" class="client-details">
       <!-- client basic information -->
       <div class="client-basic-information">
         <!-- image -->
@@ -203,9 +205,11 @@
 
               <tr class="client-basic-information-tr">
                 <td>Name:</td>
-                <td><div id="Name" class="margin-left-45px">
+                <td>
+                  <div id="Name" class="margin-left-45px">
 
-                </div></td>
+                  </div>
+                </td>
               </tr>
 
               <tr class="client-basic-information-tr">
@@ -236,257 +240,116 @@
                   <td>
                     <div id="Address" class="margin-left-45px">
 
-                    </div>
-                  </td>
-                </tr>
-
-
-
-            </table>
           </div>
-
-
-          <!-- client infomation box B -->
-          <div class=" client-basic-information-02 float-left">
-                <table>
-                  <tr class="client-basic-information-tr">
-                    <td>Next to Kin:</td>
-                    <td><div id="NextToKin" class="margin-left-115px">
-
-                    </div></td>
-                  </tr>
-                  <tr class="client-basic-information-tr">
-                    <td>Intake Date:</td>
-                    <td>
-                      <div id="IntakeDate" class="margin-left-115px">
-
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="client-basic-information-tr">
-                    <td>Case Worker:</td>
-                    <td>
-                      <div id="CaseWorker" class="margin-left-115px">
-
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="client-basic-information-tr">
-                    <td>Alerts:</td>
-                    <td>
-                      <div id="Alerts" class="green-font margin-left-115px">
-
-                      </td>
-                  </tr>
-                  <tr class="client-basic-information-tr margin-left-115px">
-                    <td>Status:</td>
-                    <td>
-                      <div id="Status" class="green-font margin-left-115px">
-
-                      </td>
-                  </tr>
-
-                  <tr class="client-basic-information-tr">
-                    <td>Precautions:</td>
-                    <td>
-                      <div id="Precautions" class="green-font margin-left-115px">
-
-                      </td>
-                  </tr>
+          </td>
+          </tr>
 
 
 
-                </table>
-          </div>
-
-
-
+          </table>
         </div>
 
 
+        <!-- client infomation box B -->
+        <div class=" client-basic-information-02 float-left">
+          <table>
+            <tr class="client-basic-information-tr">
+              <td>Next to Kin:</td>
+              <td>
+                <div id="NextToKin" class="margin-left-115px">
+
+                </div>
+              </td>
+            </tr>
+            <tr class="client-basic-information-tr">
+              <td>Intake Date:</td>
+              <td>
+                <div id="IntakeDate" class="margin-left-115px">
+
+                </div>
+              </td>
+            </tr>
+            <tr class="client-basic-information-tr">
+              <td>Case Worker:</td>
+              <td>
+                <div id="CaseWorker" class="margin-left-115px">
+
+                </div>
+              </td>
+            </tr>
+            <tr class="client-basic-information-tr">
+              <td>Alerts:</td>
+              <td>
+                <div id="Alerts" class="green-font margin-left-115px">
+
+              </td>
+            </tr>
+            <tr class="client-basic-information-tr margin-left-115px">
+              <td>Status:</td>
+              <td>
+                <div id="Status" class="green-font margin-left-115px">
+
+              </td>
+            </tr>
+
+            <tr class="client-basic-information-tr">
+              <td>Precautions:</td>
+              <td>
+                <div id="Precautions" class="green-font margin-left-115px">
+
+              </td>
+            </tr>
 
 
 
-
-      </div>
-      <!-- client information menu -->
-      <div class="client-information-menu relative">
-        <a href="#">
-          <div class="client-information-menu-container float-left bottom-line ">
-            <div class="client-information-menu-box">
-              <p>Genral Information</p>
-
-
-            </div>
-
-
-          </div>
-        </a>
-
-
-
-        <div class="client-information-menu-container float-left bottom-line ">
-          <div class="client-information-menu-box">
-            <p>Placement</p>
-          </div>
+          </table>
         </div>
-
-        <div class="client-information-menu-container float-left bottom-line ">
-          <div class="client-information-menu-box">
-            <p>Family</p>
-          </div>
-        </div>
-
-
-        <div class="client-information-menu-container float-left bottom-line ">
-          <div class="client-information-menu-box">
-            <p>Assessment</p>
-          </div>
-        </div>
-
-
-
-
-
-
-
 
 
 
       </div>
 
 
-      <!-- General information -->
-      <div class="general-infomation">
-        <form class="general-infomation-form" action="moringa-clients.html" method="post">
-
-          <div class="general-infomation-01 float-left">
-            <!-- Date of Birth -->
-            <div class="general-infomation-input-box relative  container-Date-of-Birth">
-              <div class="Date-of-Birth">
-                <p>Date of Birth</p>
-              </div>
-
-              <div id = "GI-Birthday" class="absolute-bottom-5px GI-p-tag">
-                <p></p>
-              </div>
-
-
-              <div id="icon-calendar-id" class="icon-calendar" onclick="showCalendar()">
-
-              </div>
-
-            </div>
-
-            <!-- Who all lives at home -->
-            <div class="general-infomation-input-box relative">
-              <div class=" absolute-bottom-5px">
-                <input type="text" name="who-all-home" placeholder="Who All Lives at Home?">
-              </div>
-
-            </div>
-
-
-            <!-- How many popele live At home -->
-            <div class="general-infomation-input-box relative">
-              <div class="absolute-bottom-5px">
-                <input type="text" name="How-many-people" placeholder="How Many People Live At Home?">
-
-              </div>
-
-            </div>
-
-            <!-- Are your children in Care -->
-            <div class="general-infomation-input-box relative">
-              <div class="absolute-bottom-5px">
-                <input type="text" name="children-in-care" placeholder="Are Your Children in Care?">
-              </div>
-
-            </div>
-          </div>
-
-
-          <div class="general-information-02 float-left">
-
-            <!-- How long have you lived in the home -->
-            <div class="general-infomation-input-box relative">
-              <div class="absolute-bottom-5px">
-                <input type="text" name="how-long-home" placeholder="How Long Have You Lived in The Home?">
-              </div>
-
-            </div>
-
-
-
-            <!-- Living Together -->
-
-            <div class="general-infomation-input-box relative">
-              <div class="absolute-bottom-5px inline-height-32px">
-                <div class="float-left">
-                  <p> Lving Together </p>
-                </div>
-                <div class="float-left margin-left-10px">
-                  <label class="container">
-                    <input type="radio" name="living-together" value="Yes">
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-
-                <div class="float-left margin-left-10px">
-                  <p> Yes </p>
-
-
-                </div>
-                <div class="float-left margin-left-10px">
-                  <label class="container">
-                    <input type="radio" name="living-together" value="Yes">
-                    <span class="checkmark"></span>
-                  </label>
-                </div>
-                <div class="float-left margin-left-10px">
-                  <p> No </p>
-                </div>
-
-
-              </div>
-
-            </div>
-
-            <!-- First Nation Membership -->
-            <div class="general-infomation-input-box relative">
-              <div class="absolute-bottom-5px">
-                <input type="text" name="children-in-care" placeholder="First Nation Membership (If Applicable)">
-
-              </div>
-
-            </div>
 
 
 
 
-
-            <!-- bottom -->
-            <div class="general-infomation-input-box relative no-border">
-              <div class="absolute-bottom-0px-height-60px">
-                <input class="button" type="submit" value="Save & Continue">
-              </div>
-
-            </div>
+    </div>
+    <!-- client information menu -->
+    <div class="client-information-menu relative">
+      <a href="#">
+        <div class="client-information-menu-container float-left bottom-line ">
+          <div class="client-information-menu-box">
+            <p>Genral Information</p>
 
 
           </div>
 
 
+        </div>
+      </a>
 
-        </form>
+
+
+      <div class="client-information-menu-container float-left bottom-line ">
+        <div class="client-information-menu-box">
+          <p>Placement</p>
+        </div>
+      </div>
+
+      <div class="client-information-menu-container float-left bottom-line ">
+        <div class="client-information-menu-box">
+          <p>Family</p>
+        </div>
       </div>
 
 
-      <!-- Placement -->
+      <div class="client-information-menu-container float-left bottom-line ">
+        <div class="client-information-menu-box">
+          <p>Assessment</p>
+        </div>
+      </div>
 
-      <!-- Family Tree -->
-
-      <!-- Assessment -->
 
 
 
@@ -499,80 +362,230 @@
     </div>
 
 
-    <div id="calendar" class="calendar-div">
-      <div class="year-month row">
-        <div class="small-box">
+    <!-- General information -->
+    <div class="general-infomation">
+      <form class="general-infomation-form" action="" method="post">
+
+        <div class="general-infomation-01 float-left">
+          <!-- Date of Birth -->
+          <div class="general-infomation-input-box relative  container-Date-of-Birth">
+            <div class="Date-of-Birth">
+              <p>Date of Birth</p>
+            </div>
+
+            <div id="GI-Birthday" class="absolute-bottom-5px GI-p-tag">
+              <p></p>
+            </div>
+
+
+            <div id="icon-calendar-id" class="icon-calendar" onclick="showCalendar()">
+
+            </div>
+
+          </div>
+
+          <!-- Who all lives at home -->
+          <div class="general-infomation-input-box relative">
+            <div class=" absolute-bottom-5px">
+              <input type="text" name="who-all-home" placeholder="Who All Lives at Home?">
+            </div>
+
+          </div>
+
+
+          <!-- How many popele live At home -->
+          <div class="general-infomation-input-box relative">
+            <div class="absolute-bottom-5px">
+              <input type="text" name="How-many-people" placeholder="How Many People Live At Home?">
+
+            </div>
+
+          </div>
+
+          <!-- Are your children in Care -->
+          <div class="general-infomation-input-box relative">
+            <div class="absolute-bottom-5px">
+              <input type="text" name="children-in-care" placeholder="Are Your Children in Care?">
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="general-information-02 float-left">
+
+          <!-- How long have you lived in the home -->
+          <div class="general-infomation-input-box relative">
+            <div class="absolute-bottom-5px">
+              <input type="text" name="how-long-home" placeholder="How Long Have You Lived in The Home?">
+            </div>
+
+          </div>
+
+
+
+          <!-- Living Together -->
+
+          <div class="general-infomation-input-box relative">
+            <div class="absolute-bottom-5px inline-height-32px">
+              <div class="float-left">
+                <p> Lving Together </p>
+              </div>
+              <div class="float-left margin-left-10px">
+                <label class="container">
+                  <input type="radio" name="living-together" value="Yes">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <div class="float-left margin-left-10px">
+                <p> Yes </p>
+
+
+              </div>
+              <div class="float-left margin-left-10px">
+                <label class="container">
+                  <input type="radio" name="living-together" value="Yes">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="float-left margin-left-10px">
+                <p> No </p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <!-- First Nation Membership -->
+          <div class="general-infomation-input-box relative">
+            <div class="absolute-bottom-5px">
+              <input type="text" name="children-in-care" placeholder="First Nation Membership (If Applicable)">
+
+            </div>
+
+          </div>
+
+
+
+
+
+          <!-- bottom -->
+          <div class="general-infomation-input-box relative no-border">
+            <div class="absolute-bottom-0px-height-60px">
+              <input class="button" type="submit" value="Save & Continue">
+            </div>
+
+          </div>
+
 
         </div>
-        <div id="minus" onclick="minus()" class="small-box minus ">
-          <p>
-            <</p> </div> <div onclick="chooseMonth()" class="container-77 float-left">
-              <h4 id="month"></h4>
-
-        </div>
 
 
-        <div onclick="chooseYear()" class="container-77 float-left">
-          <h4 id="year"></h4>
-        </div>
+
+      </form>
+    </div>
 
 
-        <div id="plus" onclick="plus()" class="small-box plus float-left">
-          <p>></p>
-        </div>
+    <!-- Placement -->
+
+    <!-- Family Tree -->
+
+    <!-- Assessment -->
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <div id="calendar" class="calendar-div">
+    <div class="year-month row">
+      <div class="small-box">
+
+      </div>
+      <div id="minus" onclick="minus()" class="small-box minus ">
+        <p>
+          <</p> </div> <div onclick="chooseMonth()" class="container-77 float-left">
+            <h4 id="month"></h4>
+
       </div>
 
 
-      <div class="row">
-        <div class="small-box">
-          <p>S</p>
-        </div>
-        <div class="small-box">
-          <p>M</p>
-        </div>
-        <div class="small-box">
-          <p>T</p>
-        </div>
-        <div class="small-box">
-          <p>W</p>
-        </div>
-        <div class="small-box">
-          <p>T</p>
-        </div>
-        <div class="small-box">
-          <p>F</p>
-        </div>
-        <div class="small-box">
-          <p>S</p>
-        </div>
-      </div>
-      <div id="id-dates" class="dates">
+      <div onclick="chooseYear()" class="container-77 float-left">
+        <h4 id="year"></h4>
       </div>
 
 
-      <div class="calendar-btn row">
-        <div class="container-90 float-right">
-          <input class="calendar-button" type="button" onclick="ok()" name="" value="Ok">
+      <div id="plus" onclick="plus()" class="small-box plus float-left">
+        <p>></p>
+      </div>
+    </div>
 
-        </div>
 
-        <div class="container-90 float-right">
-          <input class="calendar-button" type="button" onclick="cancel()" name="" value="Cancel">
+    <div class="row">
+      <div class="small-box">
+        <p>S</p>
+      </div>
+      <div class="small-box">
+        <p>M</p>
+      </div>
+      <div class="small-box">
+        <p>T</p>
+      </div>
+      <div class="small-box">
+        <p>W</p>
+      </div>
+      <div class="small-box">
+        <p>T</p>
+      </div>
+      <div class="small-box">
+        <p>F</p>
+      </div>
+      <div class="small-box">
+        <p>S</p>
+      </div>
+    </div>
+    <div id="id-dates" class="dates">
+    </div>
 
-        </div>
+
+    <div class="calendar-btn row">
+      <div class="container-90 float-right">
+        <input class="calendar-button" type="button" onclick="ok()" name="" value="Ok">
 
       </div>
 
+      <div class="container-90 float-right">
+        <input class="calendar-button" type="button" onclick="cancel()" name="" value="Cancel">
+
+      </div>
 
     </div>
 
-    <script src="js/calendar.js">
 
-    </script>
+  </div>
 
-    <script src="js/clients.js">
+  <script src="js/calendar.js">
 
-    </script>
+  </script>
+
+  <script src="js/clients.js">
+
+  </script>
+
+  <script src="js/founctions.js">
+
+  </script>
+
 
 </body>
 
