@@ -90,7 +90,6 @@ p {
   margin: 0 auto 0px 0px;
 }
 
-
 .side-bar .side-bar-menu-contianer:hover {
   background-color: #196b2f;
   background-image: linear-gradient(to right, #196b2f, #259c44);
@@ -112,13 +111,11 @@ p {
   cursor: pointer;
 }
 
-
-
 .margin-top-90px {
   margin-top: 90px;
 }
 
- .wrap {
+.wrap {
   height: 80px;
   margin-left: 20px;
 }
@@ -141,30 +138,19 @@ p {
   cursor: pointer;
 }
 
-
 .icon-dashboard-selected {
   display: block;
   width: 35px;
   height: 35px;
-
   background-size: 35px 35px;
-
   background: url(../img/dashboard-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
   color: white;
 }
 
-
-
-
-
-
-
-
 .side-bar-text-content {
   margin-left: 55px;
-
 }
 
 .icon-clients {
@@ -181,22 +167,16 @@ p {
   cursor: pointer;
 }
 
-
 .icon-clients-selected {
   display: block;
   width: 35px;
   height: 35px;
   background: url(../img/clients-solid.svg);
   background-size: 35px 35px;
-
   background: url(../img/clients-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
-
-
-
-
 
 .icon-users {
   display: block;
@@ -212,22 +192,16 @@ p {
   cursor: pointer;
 }
 
-
-
 .icon-users-selected {
   display: block;
   width: 35px;
   height: 35px;
   background: url(../img/user-cog-solid.svg);
   background-size: 35px 35px;
-
   background: url(../img/user-cog-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
-
-
-
 
 /* bottom menu */
 .bottom-menu {
@@ -250,7 +224,6 @@ p {
   background-position: center;
 }
 
-
 .icon-collapse-selected {
   display: block;
   width: 35px;
@@ -258,15 +231,10 @@ p {
   background: url(../img/caret-left-solid.svg);
   background-size: 35px 35px;
   background-position: center;
-
   background: url(../img/caret-left-solid-white.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-
-
 
 .icon-logout {
   display: block;
@@ -282,33 +250,23 @@ p {
   cursor: pointer;
 }
 
-
-
 .icon-logout-selected {
   display: block;
   width: 35px;
   height: 35px;
   background: url(../img/door-open-solid.svg);
   background-size: 35px 35px;
-
   background: url(../img/door-open-solid-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
 }
-
-
-
-
-
-
-
 
 /* Main Frame */
 .main-frame {
   margin-top: 0px;
   padding: 0px;
   position: relative;
-  float:left;
+  float: left;
   top: 0px;
   bottom: 0px;
   overflow: hidden;
@@ -351,25 +309,24 @@ p {
   color
 }
 
-
-.search-bar-frame ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.search-bar-frame ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 .search-bar-frame input:focus {
-   outline: none;
-}
-
-input:focus{
   outline: none;
 }
 
-.outline-none{
-     outline: none;
+input:focus {
+  outline: none;
 }
 
-
+.outline-none {
+  outline: none;
+}
 
 .search-bar {
   position: relative;
@@ -434,8 +391,7 @@ input:focus{
   margin-left: 40px;
 }
 
-
-.main-block-content{
+.main-block-content {
   margin-top: 54px;
   margin-left: 40px;
   margin-right: auto;
@@ -449,20 +405,16 @@ input:focus{
   display: none;
 }
 
-.content-center{
-    margin: auto;
+.content-center {
+  margin: auto;
   margin-top: 400px;
-
-width: 200px;
-color: #6b6f82;
-
-}
-.content-center p{
-
-color: #6b6f82;
-
+  width: 200px;
+  color: #6b6f82;
 }
 
+.content-center p {
+  color: #6b6f82;
+}
 
 /* Client details */
 .client-details {
@@ -478,9 +430,6 @@ color: #6b6f82;
   border-radius: 5px 5px 5px 5px;
 }
 
-
-
-
 /* client photo */
 .client-photo {
   margin-left: 40px;
@@ -489,7 +438,7 @@ color: #6b6f82;
   background-color: #ededed;
 }
 
-.client-photo:hover{
+.client-photo:hover {
   cursor: pointer;
 }
 
@@ -564,10 +513,9 @@ color: #6b6f82;
   cursor: pointer;
 }
 
-.green-bottom{
-    border-bottom: 5px solid #259c44;
+.green-bottom {
+  border-bottom: 5px solid #259c44;
 }
-
 
 .client-information-menu-box {
   margin-left: 40px;
@@ -579,7 +527,6 @@ color: #6b6f82;
 
 .client-information-menu-box p {
   color: #6b6f82;
-
 }
 
 /* general information */
@@ -615,7 +562,6 @@ color: #6b6f82;
 
 .general-infomation-input-box:hover {
   border-bottom: 5px solid #259c44;
-
 }
 
 .general-infomation-input-box input[type=text] {
@@ -642,7 +588,6 @@ color: #6b6f82;
 
 .container-Date-of-Birth:hover {
   color: #000000;
-
 }
 
 .GI-p-tag {
@@ -815,10 +760,9 @@ color: #6b6f82;
 }
 
 .calendar-div h4:hover {
-  cursor:pointer;
+  cursor: pointer;
   text-shadow: 0px 0px 3px #259c44;
 }
-
 
 .calendar-div p {
   font-family: 'Dosis', sans-serif;
@@ -835,10 +779,9 @@ color: #6b6f82;
 }
 
 .calendar-div p:hover {
-cursor: pointer;
-text-shadow: 0px 0px 3px #259c44;
+  cursor: pointer;
+  text-shadow: 0px 0px 3px #259c44;
 }
-
 
 .calendar-div .row {
   width: 100%;
@@ -896,21 +839,34 @@ text-shadow: 0px 0px 3px #259c44;
   float: left;
 }
 
-.calendar-button:hover{
+.calendar-button:hover {
   cursor: pointer;
   text-shadow: 0px 0px 3px #259c44;
 }
 
-
-
-.icon-search:hover{
-  cursor:pointer;
+.icon-search:hover {
+  cursor: pointer;
 }
 
-.icon-plus-wrap:hover{
-    cursor:pointer;
+.icon-plus-wrap:hover {
+  cursor: pointer;
 }
 
-.new-intake{
-  cursor:pointer;
+.new-intake {
+  cursor: pointer;
+}
+
+.other-info-container {
+  display: none;
+  font-family: 'Dosis', sans-serif;
+  color: #6b6f82;
+  padding: auto;
+  text-align: center;
+  vertical-align: center;
+}
+
+.other-info-container h2 {
+  margin-top: 100px;
+  font-family: 'Dosis', sans-serif;
+  color: #6b6f82;
 }

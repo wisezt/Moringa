@@ -11,108 +11,108 @@
 <body>
   <!-- Side Bar -->
 
-    <div id="side-bar" class="side-bar">
-      <!-- Logo -->
-      <div class="logo">
-        <!-- <img src="" alt="MORINGA"> -->
-        <img src="img/MORIGNGA_LOGO.jpg" alt="logo">
+  <div id="side-bar" class="side-bar">
+    <!-- Logo -->
+    <div class="logo">
+      <!-- <img src="" alt="MORINGA"> -->
+      <img src="img/MORIGNGA_LOGO.jpg" alt="logo">
 
 
-      </div>
+    </div>
 
-      <!-- Main Menu -->
-      <div class="side-bar-menu margin-top-90px">
-        <!-- Dashboard -->
-        <div id="menu-Dashboard" class="side-bar-menu-contianer" onclick="showContent('Dashboard')">
+    <!-- Main Menu -->
+    <div class="side-bar-menu margin-top-90px">
+      <!-- Dashboard -->
+      <div id="menu-Dashboard" class="side-bar-menu-contianer" onclick="showContent('Dashboard')">
 
-            <div class=" wrap relative">
-              <div id="icon-Dashboard" class="icon-dashboard vertical-center"></div>
-              <div class="vertical-center side-bar-text-content " >
-                <p>Dashboard</p>
+        <div class=" wrap relative">
+          <div id="icon-Dashboard" class="icon-dashboard vertical-center"></div>
+          <div class="vertical-center side-bar-text-content ">
+            <p>Dashboard</p>
 
-              </div>
-            </div>
-
-        </div>
-
-
-
-        <!-- Clients -->
-        <div  id="menu-Clients"  class="side-bar-menu-contianer-selected"  onclick="showContent('Clients')">
-
-            <div class="wrap relative">
-              <div id="icon-Clients" class="icon-clients-selected vertical-center">
-              </div>
-              <div class="vertical-center side-bar-text-content">
-                <p>Clients</p>
-              </div>
-            </div>
-
-        </div>
-
-
-        <!-- Users -->
-        <div  id="menu-Users"  class="side-bar-menu-contianer"  onclick="showContent('Users')">
-
-            <div class="wrap relative">
-              <div id="icon-Users" class="icon-users vertical-center">
-
-              </div>
-
-
-              <div class="vertical-center side-bar-text-content">
-                <p>Users</p>
-              </div>
-            </div>
-
-
-
-
+          </div>
         </div>
 
       </div>
 
-      <!-- Collapse and Logout -->
-      <div class="bottom-menu">
-        <!-- Collapse -->
-        <div  id="menu-Collapse"  class="side-bar-menu-contianer" onclick="showContent('Collapse')">
 
-          <div class="wrap relative">
-            <div id="icon-Collapse" class="icon-collapse vertical-center">
-            </div>
-            <div class="vertical-center side-bar-text-content">
-              <p> Collapse</p>
-            </div>
+
+      <!-- Clients -->
+      <div id="menu-Clients" class="side-bar-menu-contianer-selected" onclick="showContent('Clients')">
+
+        <div class="wrap relative">
+          <div id="icon-Clients" class="icon-clients-selected vertical-center">
+          </div>
+          <div class="vertical-center side-bar-text-content">
+            <p>Clients</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Users -->
+      <div id="menu-Users" class="side-bar-menu-contianer" onclick="showContent('Users')">
+
+        <div class="wrap relative">
+          <div id="icon-Users" class="icon-users vertical-center">
 
           </div>
 
 
-
-
+          <div class="vertical-center side-bar-text-content">
+            <p>Users</p>
+          </div>
         </div>
 
 
-        <!-- Logout -->
-        <div  id="menu-Logout"  class="side-bar-menu-contianer" onclick="showContent('Logout')">
-
-            <div class="wrap relative">
-              <div id="icon-Logout" class="icon-logout vertical-center">
-              </div>
-              <div class="vertical-center side-bar-text-content">
-                <p> Logout</p>
-              </div>
-
-            </div>
-
-
-
-
-        </div>
 
 
       </div>
 
     </div>
+
+    <!-- Collapse and Logout -->
+    <div class="bottom-menu">
+      <!-- Collapse -->
+      <div id="menu-Collapse" class="side-bar-menu-contianer" onclick="showContent('Collapse')">
+
+        <div class="wrap relative">
+          <div id="icon-Collapse" class="icon-collapse vertical-center">
+          </div>
+          <div class="vertical-center side-bar-text-content">
+            <p> Collapse</p>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+      <!-- Logout -->
+      <div id="menu-Logout" class="side-bar-menu-contianer" onclick="showContent('Logout')">
+
+        <div class="wrap relative">
+          <div id="icon-Logout" class="icon-logout vertical-center">
+          </div>
+          <div class="vertical-center side-bar-text-content">
+            <p> Logout</p>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+  </div>
 
 
 
@@ -182,9 +182,9 @@
 
 
     <!-- Client details -->
-  <div id="content" class="main-block-content">
+    <div id="content" class="main-block-content">
 
-  </div>
+    </div>
 
     <div id="client-details" class="client-details">
       <!-- client basic information -->
@@ -320,53 +320,55 @@
     </div>
     <!-- client information menu -->
     <div class="client-information-menu relative">
-
-        <div class="client-information-menu-container float-left bottom-line green-bottom">
-          <div class="client-information-menu-box ">
-            <p>Genral Information</p>
-
-
-          </div>
+      <div id="gi" class="client-information-menu-container float-left bottom-line green-bottom" onclick="selectedInfoMenu('gi')">
+        <div class="client-information-menu-box ">
+          <p>Genral Information</p>
 
 
         </div>
 
 
+      </div>
 
-
-      <div class="client-information-menu-container float-left bottom-line ">
+      <div id="pl" class="client-information-menu-container float-left bottom-line " onclick="selectedInfoMenu('pl')">
         <div class="client-information-menu-box">
           <p>Placement</p>
         </div>
       </div>
 
-      <div class="client-information-menu-container float-left bottom-line ">
+      <div id="fa" class="client-information-menu-container float-left bottom-line " onclick="selectedInfoMenu('fa')">
         <div class="client-information-menu-box">
           <p>Family</p>
         </div>
       </div>
 
 
-      <div class="client-information-menu-container float-left bottom-line ">
+      <div id="as" class="client-information-menu-container float-left bottom-line " onclick="selectedInfoMenu('as')">
         <div class="client-information-menu-box">
           <p>Assessment</p>
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
     </div>
 
 
+    <!-- Other Information -->
+    <div id="fa-container" class="other-info-container">
+      <h2>Family...</h2>
+    </div>
+
+    <div id="as-container" class="other-info-container">
+      <h2>Assessment...</h2>
+    </div>
+
+    <div id="pl-container" class="other-info-container">
+      <h2>Placement...</h2>
+    </div>
+
+
+
     <!-- General information -->
-    <div class="general-infomation">
+    <div id="gi-container" class="general-infomation">
       <form class="general-infomation-form" action="" method="post">
 
         <div class="general-infomation-01 float-left">
