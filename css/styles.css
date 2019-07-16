@@ -415,7 +415,7 @@ input:focus{
   height: 380px;
   position: static;
   clear: both;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   margin-left: 40px;
 }
 
@@ -457,8 +457,9 @@ input:focus{
 
 .Date-of-Birth {
   position: absolute;
-  bottom: 38px;
+  bottom: 35px;
   width: 300px;
+  margin-top: 35px;
 }
 
 .Date-of-Birth p {
