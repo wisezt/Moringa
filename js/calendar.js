@@ -199,7 +199,7 @@
               document.getElementById("calendar").style.top=calendarTop+"px";
               document.getElementById("calendar").style.left=calendarLeft+"px";
 
-              
+
       if(document.getElementById("calendar").style.display == "none"){
           document.getElementById("calendar").style.display = "block";
       }else{
@@ -215,3 +215,16 @@ function hideCalendar(){
     document.getElementById("calendar").style.display = "none";
 }
 hideCalendar();
+
+
+
+
+function ok(){
+  let birthday = "" + theYear + "-" + theMonth + "-" + theDate;
+  document.getElementById("GI-Birthday").innerHTML= "<p>"+ birthday + "</p>";
+  hideCalendar();
+}
+
+function cancel(){
+  hideCalendar();
+}

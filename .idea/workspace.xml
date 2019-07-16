@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/moringa-clients.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="564">
-              <caret line="520" lean-forward="true" selection-start-line="520" selection-end-line="520" />
+              <caret line="527" lean-forward="true" selection-start-line="527" selection-end-line="527" />
             </state>
           </provider>
         </entry>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563230109564</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Calendar position and show function">
+      <created>1563236261547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563236261547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -216,13 +223,14 @@
     <MESSAGE value="Add hover for client information menu" />
     <MESSAGE value="Setup css for general information" />
     <MESSAGE value="Add calendar to body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add calendar to body" />
+    <MESSAGE value="Add Calendar position and show function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Calendar position and show function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/moringa-clients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
-          <caret line="520" lean-forward="true" selection-start-line="520" selection-end-line="520" />
+          <caret line="527" lean-forward="true" selection-start-line="527" selection-end-line="527" />
         </state>
       </provider>
     </entry>

@@ -318,8 +318,15 @@
 
           <div class="general-infomation-01 float-left">
             <!-- Date of Birth -->
-            <div class="general-infomation-input-box">
-              <input type="date" name="" value="Date of Birth">
+            <div class="general-infomation-input-box relative  container-Date-of-Birth">
+              <div class="Date-of-Birth">
+                <p>Date of Birth</p>
+              </div>
+
+              <div id = "GI-Birthday" class="absolute-bottom-5px GI-p-tag">
+                <p>1985-12-23</p>
+              </div>
+
 
               <div id="icon-calendar-id" class="icon-calendar" onclick="showCalendar()">
 
@@ -501,12 +508,12 @@
 
       <div class="calendar-btn row">
         <div class="container-90 float-right">
-          <input class="calendar-button" type="button" name="" value="Ok">
+          <input class="calendar-button" type="button" onclick="ok()" name="" value="Ok">
 
         </div>
 
         <div class="container-90 float-right">
-          <input class="calendar-button" type="button" name="" value="Cancel">
+          <input class="calendar-button" type="button" onclick="cancel()" name="" value="Cancel">
 
         </div>
 
