@@ -5,7 +5,7 @@ body {
   color: #6b6f82;
   background-repeat: no-repeat;
   margin: 0px;
-  width: 1920px;
+  width: 1919px;
   height: 1080px;
   font-size: 1.5rem;
 }
@@ -43,7 +43,8 @@ p {
 .logo {
   color: #259c44;
   width: 100px;
-  margin: auto;
+  margin-left: 45px;
+  margin-top: 65px;
 }
 
 .side-bar {
@@ -71,17 +72,26 @@ p {
   background-image: linear-gradient(to right, #196b2f, #259c44);
   color: #ffffff;
   height: auto;
+    border-radius: 0px 5px 5px 0px;
 }
 
 .side-bar-menu-contianer {
   width: 317px;
   height: 80px;
   margin: 0 auto 0px 0px;
+
+
+
+}
+
+.margin-top-90px{
+  margin-top: 90px;
 }
 
 .side-bar-menu-contianer .wrap {
   height: 80px;
   margin-left: 20px;
+
 }
 
 .dashboard {
@@ -99,6 +109,7 @@ p {
 .side-bar a:hover .icon-dashboard {
   background: url(../img/dashboard-solid-white.svg);
   background-repeat: no-repeat;
+
 }
 
 .side-bar-text-content {
@@ -133,8 +144,7 @@ p {
 
 /* bottom menu */
 .bottom-menu {
-  position: absolute;
-  bottom: 50px;
+margin-top: 440px;
   /* margin:0px auto 50px 0px; */
 }
 
@@ -195,6 +205,16 @@ p {
   margin-right: auto;
 }
 
+.search-bar-frame input[type=text] {
+ padding: 0px;
+ font-size: 1.5rem;
+ color:  #6b6f82;
+ display: block;
+ border:none;
+ width:100%;
+ font-family: 'Dosis', sans-serif;
+}
+
 .search-bar {
   position: relative;
   margin-left: 0px;
@@ -202,6 +222,7 @@ p {
   background-color: rgba(255, 255, 255, 0.4);
   height: 70px;
   width: 1000px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .search-bar .content {
@@ -268,6 +289,7 @@ p {
   box-shadow: 0px 0px 10px #888888;
   background-color: white;
   overflow: hidden;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /* client photo */
@@ -277,6 +299,24 @@ p {
   height: 250px;
   background-color: #ededed;
 }
+
+.client-photo .center{
+  position: absolute; left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.client-photo .center p{
+  text-align: center;
+}
+
+
+
+.client-photo .background-words{
+  z-index: -10;
+
+}
+
 
 /* client basic information */
 .client-basic-information {
@@ -305,6 +345,20 @@ p {
   height: 41.67px;
 }
 
+
+.client-basic-information .green-font{
+  color: #27a448;
+}
+
+.client-basic-information .margin-left-45px{
+  margin-left: 45px;
+}
+
+.client-basic-information .margin-left-115px{
+  margin-left: 115px;
+}
+
+
 /* client-information menu */
 .client-information-menu {
   margin-top: 60px;
@@ -324,9 +378,16 @@ p {
 .client-information-menu-box {
   margin-left: 40px;
   margin-right: 40px;
+  color: #6b6f82;
   /* bottom:0px; */
   /* vertical-align: bottom; */
 }
+
+.client-information-menu-box p{
+    color: #6b6f82;
+}
+
+
 
 /* general information */
 .general-infomation {
@@ -442,6 +503,7 @@ color: #000000;
   height:60px;
   position: absolute;
   bottom: 0px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .button:hover{
