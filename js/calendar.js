@@ -182,3 +182,36 @@
       theCalendarDate.setDate(theDate);
       setSalendar();
     }
+
+
+
+    // Show Calendar
+
+
+
+    function showCalendar() {
+
+      let iconCalendarDiv = document.getElementById("icon-calendar-id");
+      let  calendarTop = iconCalendarDiv.getBoundingClientRect().top;
+      let  calendarLeft = iconCalendarDiv.getBoundingClientRect().left-400-346;
+
+              document.getElementById("calendar").style.position="absolute";
+              document.getElementById("calendar").style.top=calendarTop+"px";
+              document.getElementById("calendar").style.left=calendarLeft+"px";
+
+              
+      if(document.getElementById("calendar").style.display == "none"){
+          document.getElementById("calendar").style.display = "block";
+      }else{
+          document.getElementById("calendar").style.display = "none";
+      }
+
+
+    }
+
+//hide calendar
+
+function hideCalendar(){
+    document.getElementById("calendar").style.display = "none";
+}
+hideCalendar();
